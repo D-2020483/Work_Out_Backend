@@ -16,7 +16,7 @@ app.use((req, res, next) => {
 })
 
 //routes
-app.use('https://work0ut-buddy-frontend-dinithi.netlify.app', workoutRoutes)
+app.use('https://work0ut-buddy-frontend-dinithi.netlify.app/api/workouts', workoutRoutes)
 
 //connect to db
 mongoose.connect(process.env.MONGO_URI)
