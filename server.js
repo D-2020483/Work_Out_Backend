@@ -10,7 +10,7 @@ const app = express()
 
 //middleware
 app.use(cors({
-    origin: ['https://work0ut-buddy-frontend-dinithi.netlify.app', 'http://localhost:3000'],
+    origin: ['https://work0ut-buddy-frontend-dinithi.netlify.app'],
     methods: ['GET', 'POST', 'DELETE', 'PATCH'],
     credentials: true
 }))
